@@ -1,0 +1,118 @@
+body {
+  background-color: rgb(193, 207, 235);
+  font-family: Helvetica Neue;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+  margin:0;
+  justify-content: center;
+}
+
+h1 {
+  font-family: Helvetica Neue;
+  font-weight: 100;
+  color: blue;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+div {
+  background-color: white;
+  height: 70vh;
+  width: 900px;
+  justify-content: center;
+  margin-left:20px;
+
+}
+
+input.message {
+  color: blue;
+}
+
+input {
+  width: 45%;
+  height: 5vh;
+  padding-left: 5px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  border-radius: 12px;
+  border-color: transparent;
+}
+
+input::-webkit-input-placeholder {
+  color: blue;
+  padding-right: 5px;
+}
+
+
+
+.FirstName {
+  background-color: #e0e4fa; 
+  margin-left:20px;
+
+}
+
+.LastName {
+  background-color: #e0e4fa; 
+  margin-left:20px;
+
+}
+
+.Email {
+  background-color: #d5dbfb;
+  margin-left:20px;
+
+}
+
+.Phone {
+  background-color: #d5dbfb;
+  margin-left:20px;
+}
+
+.Address {
+  background-color: #b4bdf5;
+  width: 92%;
+  margin-left:20px;
+}
+
+.Message {
+  background-color: #7f8bdb;
+  width: 92%;
+  height: 10vh;
+  margin-left:20px;
+}
+
+
+p{
+    font-family:Helvetica Neue ;
+    color: rgb(106, 187, 187);
+    margin-top: 60px;
+    
+    
+}
+
+form{
+    width: 80%;
+    height:90%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+.submit-btn{
+    background-color: #4c63fe;
+    height: 40px;
+    width: 90px;
+    border-radius: 20px;
+    border-color: transparent;
+    color: white;
+    margin: 10px auto;
+    display: block;
+
+
+}
+
